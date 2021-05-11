@@ -1,9 +1,8 @@
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main() {
-    string name;
-    cin >> name;
-    cout << "Hello, world from" << name;
+    std::string name;   // Creating a variable
+    std::cin >> name;   // Importing the name
+    std::cout << "Hello, world from" << name;   //Printing the message
 }
