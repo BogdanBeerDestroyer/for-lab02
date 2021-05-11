@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-    std::string name;   // Creating a variable
-    std::cin >> name;   // Importing the name
-    std::cout << "Hello, world from" << name;   //Printing the message
+    std::string name;   // Определяем переменную
+    std::cin >> name;   // Получаем имя
+        std::cout << "Hello, world from" << name;   // Выводим сообщение
 }
